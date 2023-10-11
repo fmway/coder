@@ -1,17 +1,3 @@
-// Tailwind config
-// -------------------------------------------------------------
-tailwind.config = {
-  theme: {
-    extend: {
-      colors: {
-        primary: '#00DFC0',
-      },
-      fontFamily: {
-        'sans': ['Montserrat', 'Poppins', ...tailwind.defaultTheme.fontFamily.sans],
-      },
-    },
-  },
-};
 // -------------------------------------------------------------
 // Toggle for navbar hamburger
 // -------------------------------------------------------------
