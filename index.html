@@ -97,21 +97,21 @@
       </div>
     </div>
     <div class="grid grid-cols-1 gap-14 px-6 md:grid-cols-3">
-      <div class="max-w-sm shadow-lg">
+      <div class="max-w-sm mx-auto shadow-lg">
         <img class="w-full" src="images/service-1.png" alt="Web Application" />
         <div class="px-2">
           <h3 class="font-bold text-2xl my-5">Web Application</h3>
           <p class="text-gray-500 p-2">Loram, ipsam dolar sit amat consecterar adipisicing elit. Quisquam, optio quat quosi aperium at rationa.</p>
         </div>
       </div>
-      <div class="max-w-sm shadow-lg">
+      <div class="max-w-sm mx-auto shadow-lg">
         <img class="w-full" src="images/service-2.png" alt="Web Application" />
         <div class="px-2">
           <h3 class="font-bold text-2xl my-5">UI/UX Design</h3>
           <p class="text-gray-500 p-2">Loram, ipsam dolar sit amat consecterar adipisicing elit. Quisquam, optio quat quosi aperium at rationa.</p>
         </div>
       </div>
-      <div class="max-w-sm shadow-lg">
+      <div class="max-w-sm mx-auto shadow-lg">
         <img class="w-full" src="images/service-3.png" alt="Web Application" />
         <div class="px-2">
           <h3 class="font-bold text-2xl my-5">Mobile Application</h3>
@@ -120,14 +120,14 @@
       </div>
     </div>
   </section>
-  <section id="contact" class="max-w-screen-xl mx-auto mb-10 p-4 lg:p-8">
+  <section id="contact" class="max-w-screen-xl mx-auto mb-6 p-4 lg:p-8">
     <h1 class="font-bold text-4xl p-2">Contact Us</h1>
     <p class="text-lg p-2 text-gray-500 mb-8">Loram ipsam dolar sit amat consectetar adipicing elit. Repundandae, tempore!</p>
-    <div class="grid grid-cols-1 gap-16 md:grid-cols-2">
-      <div class="border border-primary border-2">
-        <h4 class="text-xl py-8 font-bold text-center">Tell us your problem</h4>
+    <div class="grid grid-cols-1 gap-10 lg:gap-24 md:grid-cols-2">
+      <div class="border border-primary my-auto border-2">
+        <h4 class="text-xl pb-8 mt-14 font-bold text-center">Tell us your problem</h4>
         <form>
-          <div class="grid grid-cols-1 gap-1 md:grid-cols-2">
+          <div class="grid grid-cols-1 gap-1 lg:grid-cols-2">
             <div class="px-3 mb-6">
               <label class="text-lg font-bold" for="name">Name</label>
               <input class="focus:outline-none w-full border-b border-slate-500 focus:border-primary" type="text" name="name" placeholder="your name" id="name" value="" />
@@ -136,7 +136,7 @@
               <label class="text-lg font-bold" for="subject">Subject</label>
               <input class="focus:outline-none w-full border-b border-slate-500 focus:border-primary" type="text" name="subject" id="subject" value="" />
             </div>
-            <div class="px-3 mb-4">
+            <div class="px-3 mb-6">
               <label class="text-lg font-bold" for="email">Email</label>
               <input class="focus:outline-none w-full border-b border-slate-500 focus:border-primary" type="email" name="email" placeholder="example@gmail.com" id="name" value="" />
             </div>
@@ -147,7 +147,7 @@
           </div>
           <div class="px-3 mb-6">
             <label class="text-lg mb-2 font-bold" for="message">Message</label>
-            <textarea class="focus:outline-none border-b border-slate-500 focus:border-primary w-full h-full min-h-[100px]" id="message"></textarea>
+            <textarea class="focus:outline-none border-b border-slate-500 focus:border-primary w-full h-full min-h-[50px] md:min-h-[100px]" id="message"></textarea>
           </div>
 
           <div class="p-2 bg-primary mx-5 mb-14 text-center text-white hover:text-black active:text-slate-200"><button type="submit">Submit</button></div>
@@ -159,8 +159,20 @@
       </div>
     </div>
   </section> 
-  <footer>
-    
+  <footer class="bg-primary -my-2 md:-mx-20 -mx-5">
+    <div class="max-w-screen-xl mx-auto px-8 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
+      <div class="text-white my-5">
+        <h1 class="font-bold mb-5 text-4xl">Coder</h1>
+        <p>Loram ipsam dolar sit amat consecterar adipisicing elit. Quam, sent?</p>
+      </div>
+      <div class="hidden sm:block"></div>
+      <div class="hidden md:block"></div>
+      <div class="flex justify-end items-center">
+        <a href="https://facebook.com"><img class="w-8 m-2 md:m-4" src="images/facebook.png" alt="Facebook" /></a>
+        <a href="https://instagram.com"><img class="w-8 m-2 md:m-4" src="images/instagram.png" alt="Instagram" /></a>
+        <a href="https://x.com"><img class="w-8 m-2 md:m-4" src="images/twitter.png" alt="Twitter" /></a>
+      </div>
+    </div>
   </footer>
   <script src="script.js"></script>
 </body>
